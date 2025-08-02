@@ -1,27 +1,25 @@
 # UF LipSync
 
-Unity package for generating lip sync animations from UFData format with VRM blend shapes support.
+BlendShape対応モデル用のリップシンクアニメーション生成Unityパッケージです。UFDataファイルから日本語歌詞のタイミング情報を読み取り、BlendShapeを使用したリップシンクアニメーションを自動生成します。
 
-## Installation
+## 🚀 クイックスタート
 
-1. Open Unity Package Manager
-2. Click "+" button and select "Add package from git URL"
-3. Enter your git repository URL
+1. Unity Package Managerを開く
+2. 「+」ボタンから「Add package from git URL」を選択
+3. `https://github.com/mikucrossing/uflipsync.git` を入力
+4. メニューバーから `UFLipsync > リップシンク生成` を選択
+5. UFDataファイルとBlendShape対応モデルを設定してアニメーション生成
 
-## Requirements
+## 📋 動作環境
 
-- Unity 2020.3 or later
-- VRM models with blend shapes
-- Newtonsoft.Json (automatically installed)
+- Unity 2020.3 LTS以上
+- BlendShape対応モデル（VRM、VRChat、MMD等）
+- Newtonsoft.Json（自動インストール）
 
-## Usage
+## 📖 詳細ドキュメント
 
-1. Open the LipSync Generator window: `Window > UFLipSync > Generator`
-2. Select your UFData file (.ufdata)
-3. Choose the track to generate animation for
-4. Set your VRM model and configure blend shapes
-5. Generate animation
+詳細な使用方法、設定、トラブルシューティングについては[完全ガイド](docs/README.md)をご覧ください。
 
-## License
+## 📄 ライセンス
 
-MIT License
+[MIT License](LICENSE) - 詳細はLICENSEファイルをご覧ください。
