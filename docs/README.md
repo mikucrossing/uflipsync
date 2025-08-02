@@ -234,7 +234,17 @@ GetComponent<Animator>().Play("LipSyncState");
 
 ## 📄 ライセンス
 
-[MIT License](../LICENSE) - 詳細はLICENSEファイルをご覧ください。
+このプロジェクトは[MIT License](../LICENSE)の下で公開されています。
+
+### 使用ライブラリ・データ形式
+
+このプロジェクトでは以下のオープンソースプロジェクトのデータ形式仕様を参考にしています：
+
+- **utaformatix-data** by [sdercolin](https://github.com/sdercolin)
+  - UFDataファイル形式の仕様
+  - ライセンス: Apache License 2.0
+  - リポジトリ: https://github.com/sdercolin/utaformatix-data
+  - 本プロジェクトではUnity向けに独自実装しており、元のコードを直接使用していません
 
 ## 🤝 貢献
 
